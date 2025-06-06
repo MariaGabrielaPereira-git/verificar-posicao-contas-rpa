@@ -4,9 +4,12 @@ Este processo tem como objetivo verificar e validar a consistência dos valores 
 A automação foi desenvolvida com foco em rastreabilidade, redução de falhas manuais e comunicação eficiente.
 
 ---
-##  Visão Geral do Processo
+## Visão Geral do Processo
 
-[Fluxograma do processo](Fluxograma/fluxograma-processo-verificar-contas.png)
+<p align="center">
+  <img src="Fluxograma/fluxograma-processo-verificar-contas.png" alt="Fluxograma do processo" width="900">
+</p>
+
 
 ## Fluxo Ideal
 
