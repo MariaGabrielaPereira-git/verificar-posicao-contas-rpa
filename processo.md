@@ -6,7 +6,7 @@ A automação foi desenvolvida com foco em rastreabilidade, redução de falhas 
 ---
 ##  Visão Geral do Processo
 
-![Fluxograma do processo](Fluxograma/fluxograma-processo-verificar-contas.png)
+[Fluxograma do processo](Fluxograma/fluxograma-processo-verificar-contas.png)
 
 ## Fluxo Ideal
 
