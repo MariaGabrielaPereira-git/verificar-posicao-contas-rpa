@@ -46,7 +46,7 @@ A automação foi desenvolvida com foco em rastreabilidade, redução de falhas 
 
 ---
 
-## ❌ Tratativas em caso de exceções
+##  Tratativas em caso de exceções
 
 ### 1. Exceção no login no ACME System 1 ou ACME System 3
 - Validar se os dados da planilha “Acesso” estão corretos
@@ -86,7 +86,7 @@ A automação foi desenvolvida com foco em rastreabilidade, redução de falhas 
 
 ---
 
-## 📌 Observações
+##  Observações
 
 - Todas as exceções são registradas na base de dados com status "Exceção"
 - Cada ocorrência também é marcada no relatório sintético como “Exceção”
