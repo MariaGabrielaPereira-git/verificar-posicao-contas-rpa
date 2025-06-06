@@ -18,7 +18,7 @@
 
 ---
 
-## 📤 Saídas Esperadas
+## Saídas Esperadas
 
 - **Planilha consolidada** com os resultados validados por cliente
 - **Log de execução detalhado** salvo localmente para rastreabilidade
@@ -29,7 +29,7 @@
 ##  Critérios de Sucesso
 
 -  100% das exceções tratadas automaticamente ou devidamente registradas
-- 🗃 Tabela SQL refletindo fielmente o resultado da execução
+-  Tabela SQL refletindo fielmente o resultado da execução
 -  E-mail de encerramento enviado com os relatórios anexos
 -  Registros disponíveis para consulta técnica e auditoria a qualquer momento
 
