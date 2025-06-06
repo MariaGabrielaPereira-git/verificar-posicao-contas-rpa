@@ -5,24 +5,24 @@ A automação foi desenvolvida com foco em rastreabilidade, redução de falhas 
 
 ---
 
-## ✅ Fluxo Ideal
+## Fluxo Ideal
 
 1. Acessar o sistema **ACME System 1**
 2. Efetuar login com as credenciais da planilha “Acesso”
 3. Filtrar itens do tipo:
-   - `Type = WI1`
-   - `Status = Open`
-   - `Description = Verify Account Position`
-4. Capturar os dados: `Client ID` e `WIID`
+   - "Type = WI1"
+   - "Status = Open"
+   - "Description = Verify Account Position"
+4. Capturar os dados: "Client ID" e "WIID"
 5. Acessar o sistema legado **ACME System 3**
 6. Realizar login com as credenciais da planilha “Acesso Legado”
-7. Buscar cliente por `Client ID`
+7. Buscar cliente por "Client ID"
 8. Selecionar a conta vinculada e acessar a aba com os valores
 9. Somar todos os valores da coluna **Amount**
 10. Comparar com o campo **Account Amount**
 11. Atualizar o status no ACME System 1:
-    - `Completed` se os valores forem iguais
-    - `Rejected` se forem diferentes
+    - "Completed" se os valores forem iguais
+    - "Rejected" se forem diferentes
 12. Registrar comentário conforme resultado
 13. Salvar o resultado no banco de dados
 14. Gerar relatórios analítico e sintético
@@ -30,7 +30,7 @@ A automação foi desenvolvida com foco em rastreabilidade, redução de falhas 
 
 ---
 
-## 🔧 Melhorias implementadas no processo
+##  Melhorias implementadas no processo
 
 - **Inclusão de banco de dados (TBL_Verificacao_Contas_Cliente):**  
   Permitiu armazenar informações capturadas de forma estruturada e segura, eliminando o uso de arquivos temporários e tornando o processo mais rastreável e dinâmico.
@@ -69,10 +69,10 @@ A automação foi desenvolvida com foco em rastreabilidade, redução de falhas 
 
 ### 5. Conta vinculada não localizada
 - Adicionar no comentário: “Conta vinculada não encontrada”
-- Atualizar status como `Rejected` e seguir fluxo
+- Atualizar status como "Rejected" e seguir fluxo
 
 ### 6. Soma da coluna Amount não bate com Account Amount
-- Atualizar status como `Rejected`
+- Atualizar status como "Rejected"
 - Comentário: “Valores divergentes entre sistema 1 e 2”
 - Registrar na base e no relatório
 
